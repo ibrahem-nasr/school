@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    overflow-x: hidden;
+}
+.card{
+    width: 320px;
+    line-height: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 10px;
+    height:200px ;
+    position: relative;
+}
+.deleteBtn{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.hide{
+    display: none;
+}
+.btnContainer{
+    min-width: 100%;
+    margin:  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}

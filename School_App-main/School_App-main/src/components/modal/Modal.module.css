@@ -1,0 +1,29 @@
+.backDrop{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: #000;
+   opacity: .7;
+   z-index: 1000;
+   display: none;
+}
+.overLay{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    z-index: 10002;
+    border-radius: 7px;
+    display: none;
+}
+.showBackDrop{
+    display: block;
+}
+.showOverLay{
+    display: block;
+}
